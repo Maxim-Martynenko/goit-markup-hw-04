@@ -20,20 +20,28 @@
         <div class="container main-nav">
             <nav class="head-nav">
                 <a class="logo" href="./index.html">Web<span class="logo-1">Studio</span></a>
-
+    
                 <ul class="nav">
-                    <li> <a class="nav-link" href="./index.html">Студия</a> </li>
-                    <li> <a class="nav-link" href="./portfolio.html">Портфолио</a> </li>
-                    <li> <a class="nav-link" href="">Контакты</a> </li>
+                    <li> <a class="nav-link " href="./index.html">Студия</a> </li>
+                    <li> <a class="nav-link current" href="./portfolio.html">Портфолио</a> </li>
+                    <li> <a class="nav-link" href="#cont">Контакты</a> </li>
                 </ul>
             </nav>
-
+    
             <ul class="contacts">
                 <li>
-                    <a class="head-contacts" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    <a class="head-contacts" href="mailto:info@devstudio.com">
+                        <svg class="contact-icon" width='16' height='12'>
+                            <use href="./img/svg/symbol-defs.svg#icon-envelope"></use>
+                        </svg>
+                        info@devstudio.com</a>
                 </li>
                 <li>
-                    <a class="head-contacts" href="tel:+380961111111">+38 096 111 11 11</a>
+                    <a class="head-contacts" href="tel:+380961111111">
+                        <svg class="contact-icon" width='10' height='16'>
+                            <use href="./img/svg/symbol-defs.svg#icon-smartphone"></use>
+                        </svg>
+                        +38 096 111 11 11</a>
                 </li>
             </ul>
         </div>
@@ -134,19 +142,62 @@
     </main>
 
     <footer>
-        <div class="container">
-            <a class="logo" href="">Web<span class="logo-2">Studio</span></a>
-            <address class="foot-adr">
-                г. Киев, пр-т Леси Украинки, 26
-            </address>
-            <ul>
-                <li class="mail-foot">
-                    <a class="foot-cont" href="mailto:info@devstudio.com">info@devstudio.com</a>
-                </li>
-                <li>
-                    <a class="foot-cont" href="tel:+380961111111">+38 096 111 11 11</a>
-                </li>
-            </ul>
+        <div class="container footer-box">
+            <div>
+                <a class="logo" href="">Web<span class="logo-2">Studio</span></a>
+                <address class="foot-adr" id="cont">
+                    г. Киев, пр-т Леси Украинки, 26
+                </address>
+                <ul>
+                    <li class="mail-foot">
+                        <a class="foot-cont" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    </li>
+                    <li>
+                        <a class="foot-cont" href="tel:+380961111111">+38 096 111 11 11</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="subscribe">
+                <h3 class="subscribe-title">ПРИСОЕДИНЯТЕСЬ</h3>
+                <ul class="subscribe-list">
+                    <li class="subscribe-item">
+                        <a class="subscribe-link" href="https://www.instagram.com/" target="blank">
+                            <div class="subscribe-container">
+                                <svg class="subscribe-icon">
+                                    <use href="./img/svg/symbol-defs.svg#icon-instagram"></use>
+                                </svg>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="subscribe-item">
+                        <a class="subscribe-link" href="https://twitter.com/" target="blank">
+                            <div class="subscribe-container">
+                                <svg class="subscribe-icon">
+                                    <use href="./img/svg/symbol-defs.svg#icon-twitter"></use>
+                                </svg>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="subscribe-item">
+                        <a class="subscribe-link" href="https://www.facebook.com/" target="blank">
+                            <div class="subscribe-container">
+                                <svg class="subscribe-icon">
+                                    <use href="./img/svg/symbol-defs.svg#icon-facebook"></use>
+                                </svg>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="subscribe-item">
+                        <a class="subscribe-link" href="https://www.linkedin.com/" target="blank">
+                            <div class="subscribe-container">
+                                <svg class="subscribe-icon">
+                                    <use href="./img/svg/symbol-defs.svg#icon-linkedin"></use>
+                                </svg>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </footer>
 
